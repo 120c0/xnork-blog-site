@@ -1,0 +1,23 @@
+.end-site footer {
+  color: rgb(145, 145, 145);
+  font-size: 9pt;
+  text-align: center;
+}
+.end-site .social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding:10px;
+}
+.end-site .social-media li {
+  list-style: none;
+}
+.end-site .social-media li a {
+  color: white;
+}
+.end-site {
+  background: black;
+  padding-bottom: 12px;
+  position: relative;
+  bottom: -10vh;
+}

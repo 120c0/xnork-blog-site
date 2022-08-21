@@ -1,0 +1,69 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url("../../css/style.css");
+
+.post-banner {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 35vh;
+  display: flex;
+  align-items: flex-end;
+}
+.banner {
+  background-position: center;
+  background-size: cover;
+  background-clip: border-box;
+  height: 45vw;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 5px;
+  margin-bottom: 4px;
+}
+.post-title {
+  color: white;
+  width: 100%;
+  padding: 20px;
+  font-weight: 500;
+}
+.post-text h2 {
+  padding: 8px 0 8px 0;
+}
+.post-text footer {
+  font-size: 8pt;
+  text-align: right;
+}
+.post-text {
+  padding: 12px;
+  font-size: 12pt;
+  color: rgb(73, 73, 73);
+}
+/* PC */
+@media only screen and (min-width: 700px) {
+  .post-title {
+    font-size: 35pt;
+    color: white;
+    width: 100%;
+    padding: 36px;
+  }
+  .post-text {
+    padding: 12px;
+    font-size: 16pt;
+    width: 60vw;
+    margin: auto;
+  }
+  .banner {
+    height: 35vw;
+    margin-top: 15px;
+  }
+  .post-banner {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 35vw;
+    display: flex;
+    align-items: flex-end;
+  }
+}
+/* Mobile */
+@media only screen and (max-width: 700px) {
+}

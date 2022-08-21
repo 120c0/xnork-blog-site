@@ -1,0 +1,13 @@
+{
+  "name": "NF-e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
